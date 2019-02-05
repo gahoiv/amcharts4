@@ -5,6 +5,14 @@ module.exports = {
 
   included(app) {
     this._super.included.apply(this, arguments);
+    
+    app.options.amcharts4 = {
+      files: [
+        'core',
+        'charts',
+        'themes/animated'
+      ]
+    };
 
     if (app.options.amcharts4 == null) {
       throw new Error("You must add an amcharts4 property to your EmberApp");
