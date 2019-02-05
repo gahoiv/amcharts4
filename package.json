@@ -1,7 +1,6 @@
 {
-  "private": true,
-  "name": "@amcharts/amcharts4",
-  "version": "4.1.2",
+  "name": "@amcharts/amcharts4-hardcoded-files",
+  "version": "4.1.2-alpha.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/amcharts/amcharts4.git"
